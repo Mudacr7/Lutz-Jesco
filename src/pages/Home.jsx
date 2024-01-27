@@ -1,9 +1,10 @@
 import React from 'react'
-
+import Banner from '../components/Home/Banner/Banner.jsx';
 const Home = () => {
   return (
-    <div>Home</div>
+    <div id='home'>
+      <Banner/>
+    </div>
   )
 }
-
 export default Home

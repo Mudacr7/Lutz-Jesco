@@ -1,0 +1,25 @@
+.top-bar{
+    display: flex;
+    background-color: #EF232E;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.top-bar p{
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    color: #fff;
+}
+nav{
+    background-color: var(--maroon);
+}
+.nav-btn {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.10) !important;
+}
+.navbar-brand img{
+    width: 120px;
+}
