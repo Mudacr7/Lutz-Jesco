@@ -13,7 +13,7 @@ const AboutUs = () => {
           <p>Our mission is to empower businesses with innovative pumping solutions that optimize performance and enhance productivity. We pride ourselves on our commitment to delivering exceptional products and unparalleled customer service.</p>
           <a className='web-btn'>Read More</a>
         </div>
-        <div className="img col-md-4 position-relati  ve text-center">
+        <div className="img col-md-4 position-relative">
           <div className="overlay"></div>
           <img src={aboutimg} alt="" />
         </div>

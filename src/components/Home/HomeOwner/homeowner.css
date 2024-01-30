@@ -1,0 +1,30 @@
+.section-homeowner {
+    position: relative;
+    background-image: url(../../../assets/images/images.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+
+.section-homeowner  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background: #333333;
+    background: -webkit-linear-gradient(to right, #972222, #333333);
+    background: linear-gradient(to right, #972222, #333333);
+}
+.section-homeowner .content{
+    
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 50px;
+}
