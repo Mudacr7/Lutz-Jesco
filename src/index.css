@@ -14,6 +14,11 @@ h6 {
   margin: 0;
   padding: 0;
 }
+
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
 body {
   margin: 0;
   font-family: 'Rubik', sans-serif;
@@ -22,8 +27,25 @@ body {
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 :root {
   --maroon: #84151F;
+}
+.web-btn{
+  display: flex;
+  width: fit-content;
+  transition: 0.5s;
+  gap: 5px;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 10px 15px;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: var(--maroon);
+}
+.web-btn:hover{
+  transition: 0.5s;
+  background-color: #74000a;
 }

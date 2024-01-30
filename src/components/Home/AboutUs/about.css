@@ -1,0 +1,27 @@
+.section-aboutus{
+    padding:150px 180px;
+}
+.section-aboutus .content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.section-aboutus .content h2{
+font-weight: 700;
+    color: var(--maroon); 
+
+}
+.section-aboutus .img  img{ 
+    position: relative;
+    background-color: rgba(132, 6, 17, 0.24);
+        width: 100%;
+        
+}
+.section-aboutus .img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+  background: rgba(132, 6, 17, 0.24); ;}

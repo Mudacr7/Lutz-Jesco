@@ -25,57 +25,19 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item dropdown">
-                <Link className="nav-link dropdown-toggle active " to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Product & Services
-                </Link>
-                <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/">Action</Link></li>
-                  <li><Link className="dropdown-item" to="/">Another action</Link></li>
-                  <li><Link className="dropdown-item" to="/">Something else here</Link></li>
-                </ul>
-              </li>
-              <li className="nav-item dropdown">
-                <Link className="nav-link dropdown-toggle active " to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Support
-                </Link>
-                <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/">Action</Link></li>
-                  <li><Link className="dropdown-item" to="/">Another action</Link></li>
-                  <li><Link className="dropdown-item" to="/">Something else here</Link></li>
-                </ul>
-              </li>
-              <li className="nav-item dropdown">
-                <Link className="nav-link dropdown-toggle active " to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Learn
-                </Link>
-                <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/">Action</Link></li>
-                  <li><Link className="dropdown-item" to="/">Another action</Link></li>
-                  <li><Link className="dropdown-item" to="/">Something else here</Link></li>
-                </ul>
-              </li>
-              <li className="nav-item dropdown">
-                <Link className="nav-link dropdown-toggle active " to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  About Us
-                </Link>
-                <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/">Action</Link></li>
-                  <li><Link className="dropdown-item" to="/">Another action</Link></li>
-                  <li><Link className="dropdown-item" to="/">Something else here</Link></li>
-                </ul>
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/">Home  </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">Contact  </Link>
+                <Link className="nav-link active" aria-current="page" to="/">Build New System  </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/">About Us  </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/">Contact Us  </Link>
               </li>
             </ul>
-            <form className="d-flex" role="search">
-              <a className="nav-btn btn border-light rounded-0 text-light btn-outline-lg" type="submit"> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
-                <path d="M9 9C11.2091 9 13 7.20914 13 5C13 2.79086 11.2091 1 9 1C6.79086 1 5 2.79086 5 5C5 7.20914 6.79086 9 9 9Z" stroke="white" />
-                <path d="M17 16.5C17 18.985 17 21 9 21C1 21 1 18.985 1 16.5C1 14.015 4.582 12 9 12C13.418 12 17 14.015 17 16.5Z" stroke="white" />
-              </svg>
-                Sign In</a>
-            </form>
           </div>
         </div>
       </nav>
