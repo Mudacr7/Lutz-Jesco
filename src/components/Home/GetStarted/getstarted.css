@@ -3,7 +3,14 @@
     background-color: var(--maroon);
 }
 @media only screen and (max-width: 600px) {
-
+  .section-getstarted .web-btn{
+    font-size: 12px;
+    text-align: center !important;
+  }
+  .section-getstarted p{
+    font-size: 10px !important;
+   
+  }
     
 }
 

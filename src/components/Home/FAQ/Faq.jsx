@@ -37,7 +37,7 @@ const Faq = () => {
                             </button>
                         </div>
                         <div class="collapse" id="collapseExample1">
-                            <div class="border-0 text-dark card-body">
+                            <div class="border-0 answer  text-dark card-body">
                                 we offer a diverse range of acid pumping machines designed to handle various types of acids and
                                 corrosive liquids. Our product lineup
                                 includes diaphragm pumps, centrifugal pumps, and peristaltic pumps,
@@ -55,7 +55,7 @@ const Faq = () => {
                             </button>
                         </div>
                         <div class="collapse" id="collapseExample2">
-                            <div class="border-0 text-dark card-body">
+                            <div class="border-0 answer text-dark card-body">
                                 we offer a diverse range of acid pumping machines designed to handle various types of acids and
                                 corrosive liquids. Our product lineup
                                 includes diaphragm pumps, centrifugal pumps, and peristaltic pumps,
@@ -73,7 +73,7 @@ const Faq = () => {
                             </button>
                         </div>
                         <div class="collapse" id="collapseExample3">
-                            <div class="border-0 text-dark card-body">
+                            <div class="border-0 answer text-dark card-body">
                                 we offer a diverse range of acid pumping machines designed to handle various types of acids and
                                 corrosive liquids. Our product lineup
                                 includes diaphragm pumps, centrifugal pumps, and peristaltic pumps,
@@ -91,7 +91,7 @@ const Faq = () => {
                             </button>
                         </div>
                         <div class="collapse" id="collapseExample4">
-                            <div class="border-0 text-dark card-body">
+                            <div class="border-0 answer text-dark card-body">
                                 we offer a diverse range of acid pumping machines designed to handle various types of acids and
                                 corrosive liquids. Our product lineup
                                 includes diaphragm pumps, centrifugal pumps, and peristaltic pumps,

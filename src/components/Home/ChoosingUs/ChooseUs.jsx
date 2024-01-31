@@ -5,9 +5,9 @@ const ChooseUs = () => {
 
         <>
             <section className='section-choose-us' >
-                <div className="container  text-center">
+                <div className="container text-center">
                     <h2>Why Choose Us</h2>
-                    <p>Experience Excellence: Uncover the <a href="/" className='text-dark fw-bolder'>Lutz Jesco</a> Advantage</p>
+                    <p className='main-heading'>Experience Excellence: Uncover the <a href="/" className='text-dark fw-bolder'>Lutz Jesco</a> Advantage</p>
                     <div className="row">
                         <div className="col-md-4 p-3">
                             <div className="card">

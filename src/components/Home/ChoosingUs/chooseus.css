@@ -2,54 +2,45 @@
     background-color: #E1E1E1;
     padding: 50px 0px;
 }
-.section-choose-us h2{
+.section-choose-us h2 {
     color: var(--maroon);
     margin-bottom: 20px;
     font-weight: 800;
 }
-
-
 .section-choose-us .card {
     margin-top: 20px;
     border-radius: 0;
-    height:180px;
+    height: 180px;
     background-color: #840611;
 }
-
 .card {
     text-align: start;
     color: #fff;
     padding: 15px 30px;
 }
-
 .card .heading {
     align-items: center;
     color: #fff;
     justify-content: space-between;
-  
 }
-
 .heading span {
     font-weight: 700;
     font-size: 16px;
 }
-
 .card .heading p {
     font-weight: 800;
     font-size: 30px;
     color: rgba(255, 255, 255, 0.39);
 }
-
 .card p {
     font-size: 11px;
 }
-
 @media only screen and (max-width: 600px) {
-
-    
+    .section-choose-us {
+        padding: 50px 40px;
+    }
+    .section-choose-us .main-heading {
+        font-size: 13px !important;
+    }
 }
-
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-
-
-}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {}

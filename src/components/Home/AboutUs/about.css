@@ -1,31 +1,24 @@
 .section-aboutus {
     padding: 150px 180px;
 }
-
 .section-aboutus .content {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-
 .section-aboutus .content h2 {
     font-weight: 700;
     color: var(--maroon);
-
 }
-
 .row>* {
     padding: 0;
 }
-
 .section-aboutus .img {
     overflow: hidden;
 }
-
 .section-aboutus .img img {
     width: 100%;
 }
-
 .section-aboutus .img .overlay {
     position: absolute;
     top: 0;
@@ -36,13 +29,20 @@
     background: rgba(132, 6, 17, 0.24);
     ;
 }
-
-@media only screen and (max-width: 600px) {
-
-    
-}
-
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-
-
+}
+@media (max-width: 600px) {
+    .section-aboutus .content p {
+    font-size: 12px;   
+    }
+    .section-aboutus {
+        padding:40px;
+    }
+    .section-aboutus  .row{
+        justify-content: center !important;
+        gap: 30px;
+    }
+    .section-aboutus .img{
+        width: 350px;
+    }
 }

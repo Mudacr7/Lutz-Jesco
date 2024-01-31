@@ -53,13 +53,11 @@ const Footer = () => {
       </footer>
       <div className='bottom-bar'>
         <p>
-          Copyright © 2024 <a>Lutz Jesco</a> All Rights Reserved. <a>Dot CLick</a>
+          Copyright © 2024&ensp;<a>Lutz Jesco&ensp;</a>All Rights Reserved<a>&ensp;Dot CLick</a>
         </p>
-
         <p>Terms of use&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Privcacy Policy</p>
       </div>
     </>
   )
 }
-
 export default Footer

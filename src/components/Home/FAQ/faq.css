@@ -38,11 +38,19 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .section-faq h1 {
+        font-size: 22px;
+    }
 
-    
+    .q-ask p {
+        font-size: 12px;
+    }
+    .answer{
+    font-size: 10px !important; 
+    }
+    .q-ask svg{
+    width: 10px; 
+    }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-
-
-}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {}

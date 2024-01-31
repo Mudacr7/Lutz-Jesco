@@ -4,18 +4,15 @@
     justify-content: space-between;
     padding: 5px 10px;
 }
-
 .top-bar p {
     align-items: center;
     display: flex;
     gap: 5px;
     color: #fff;
 }
-
 nav {
     background-color: var(--maroon);
 }
-
 .nav-btn {
     margin-left: 10px;
     display: flex;
@@ -23,48 +20,38 @@ nav {
     gap: 10px;
     background-color: rgba(255, 255, 255, 0.10) !important;
 }
-
 .navbar-brand img {
     width: 120px;
 }
-
 footer {
     background-color: #E1E1E1;
     padding: 60px 20px;
 }
-
 footer .leftside img {
     width: 130px;
 }
-
 footer .leftside p {
     font-size: 15px;
 }
-
 footer .centerside {
     padding: 30px 120px;
 }
-
 footer .centerside li {
     color: var(--maroon);
     font-weight: 800;
 }
-
 footer .centerside a {
     color: #000;
     font-weight: 500;
     margin-top: 15px;
 }
-
 footer .rightside {
     padding: 30px 0px 30px 50px;
 }
-
 footer .rightside li {
     color: var(--maroon);
     font-weight: 800;
 }
-
 footer .rightside a {
     display: flex;
     gap: 10px;
@@ -74,32 +61,45 @@ footer .rightside a {
     font-weight: 500;
     margin-top: 20px;
 }
-
 .bottom-bar {
     display: flex;
     background-color: var(--maroon);
     justify-content: space-between;
     padding: 15px 80px;
 }
-
 .bottom-bar p a {
     text-decoration: none;
     font-weight: 700;
 }
-
 .bottom-bar p {
     align-items: center;
     display: flex;
-    gap: 5px;
     color: #fff;
 }
-
 @media only screen and (max-width: 600px) {
-
-    
+footer .leftside{
+    gap: 30px;
 }
-
+    footer .leftside img {
+        width: 100px;
+    }
+    footer .leftside p {
+        font-size: 12px;
+    }
+    footer .centerside {
+        margin-top: 40px;
+        padding: 30px 50px;
+    text-align: start !important;
+    }
+    .bottom-bar {
+        gap: 5px;
+        flex-direction: column;
+        padding: 15px 0;
+    }
+    .bottom-bar p {
+        font-size: 12px;
+        justify-content: center;
+    }
+}
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-
-
 }
