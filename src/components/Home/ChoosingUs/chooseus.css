@@ -7,32 +7,31 @@
     margin-bottom: 20px;
     font-weight: 800;
 }
-.section-choose-us {
-    padding: 50px 0px;
-}
+
 
 .section-choose-us .card {
     margin-top: 20px;
     border-radius: 0;
-    height:220px;
+    height:180px;
     background-color: #840611;
 }
 
 .card {
     text-align: start;
     color: #fff;
-    padding: 30px 30px;
+    padding: 15px 30px;
 }
 
 .card .heading {
     align-items: center;
     color: #fff;
     justify-content: space-between;
+  
 }
 
 .heading span {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .card .heading p {
@@ -42,5 +41,5 @@
 }
 
 .card p {
-    font-size: 13px;
+    font-size: 11px;
 }
