@@ -7,8 +7,8 @@ const HomeOwner = () => {
         <div className="overlay"></div>
         <div className="container position-relative h-100">
           <div className='col-md-6 content'>
-            <h2>Are you a homeowner and want to improve water comfort in your
-              daily life?</h2>
+            <h3>Are you a homeowner and want to improve water comfort in your
+              daily life?</h3>
             <p>Visit our Home & Garden section to learn about common water issues that homeowners face.
               You can also discover how perfect water solutions can improve comfort and provide
               energy and water savings.</p>

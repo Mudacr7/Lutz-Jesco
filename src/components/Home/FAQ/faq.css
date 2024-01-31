@@ -24,12 +24,15 @@
     align-items: center;
     justify-content: space-between;
 }
-.first-svg{
-display: none;
+
+.first-svg {
+    transform: rotate(90deg);
+    transition: all 0.6s;
 
 }
-.second-svg{
-display: block !important;
 
-
+.second-svg {
+    display: inline block !important;
+    transform: rotate(0deg);
+    transition: all 0.6s;
 }
