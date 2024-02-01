@@ -6,7 +6,7 @@ const HomeOwner = () => {
       <section className='section-homeowner'>
         <div className="overlay"></div>
         <div className="container position-relative h-100">
-          <div className='col-md-6 content'>
+          <div className='col-ld-6 col-md-10 content'>
             <h3>Are you a homeowner and want to improve water comfort in your
               daily life?</h3>
             <p>Visit our Home & Garden section to learn about common water issues that homeowners face.
@@ -22,5 +22,4 @@ const HomeOwner = () => {
     </>
   )
 }
-
 export default HomeOwner

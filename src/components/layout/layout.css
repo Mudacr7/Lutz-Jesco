@@ -19,7 +19,53 @@ nav {
     align-items: center;
     gap: 10px;
     background-color: rgba(255, 255, 255, 0.10) !important;
-}
+}.setting-btn {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background-color: var(--maroon);
+    border-radius: 5%;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 0px 2px rgb(212, 209, 255);
+  }
+  .bar {
+    width: 50%;
+    height: 2px;
+    background-color: rgb(229, 229, 229);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 2px;
+  }
+  .bar::before {
+    content: "";
+    width: 2px;
+    height: 2px;
+    background-color: var(--maroon);
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 5px white;
+  }
+  .bar1::before {
+    transform: translateX(-4px);
+  }
+  .bar2::before {
+    transform: translateX(4px);
+  }
+  .setting-btn.active .bar1::before {
+    transform: translateX(4px);
+  }
+  .setting-btn.active .bar2::before {
+    transform: translateX(-4px);
+  }
 .navbar-brand img {
     width: 120px;
 }
@@ -76,10 +122,37 @@ footer .rightside a {
     display: flex;
     color: #fff;
 }
-@media only screen and (max-width: 600px) {
-footer .leftside{
-    gap: 30px;
+.terms {
+    width: 25%;
 }
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    nav ul{
+        margin-top: 30px;
+    }
+    footer .centerside {
+        padding: 30px 60px;
+        text-align: start !important;
+    }
+    footer .leftside p {
+        font-size: 12px;
+    }
+    .bottom-bar {
+        padding: 15px;
+    }
+    .bottom-bar p {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .top-bar p {
+    font-size: 10px;
+    }    nav ul{
+        margin-top: 30px;
+    }
+    footer .leftside {
+        align-items: center;
+        gap: 30px;
+    }
     footer .leftside img {
         width: 100px;
     }
@@ -89,7 +162,7 @@ footer .leftside{
     footer .centerside {
         margin-top: 40px;
         padding: 30px 50px;
-    text-align: start !important;
+        text-align: start !important;
     }
     .bottom-bar {
         gap: 5px;
@@ -100,6 +173,9 @@ footer .leftside{
         font-size: 12px;
         justify-content: center;
     }
-}
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .terms {
+        width: 100%;
+        justify-content: center !important;
+        gap: 20px;
+    }
 }

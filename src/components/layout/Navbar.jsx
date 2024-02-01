@@ -2,7 +2,12 @@ import React from 'react'
 import './layout.css'
 import navImage from '../../assets/images/Group 1.png'
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 const Navbar = () => {
+  const [isActive, setIsActive] = useState(false);
+  const toggleClick = () => {
+    setIsActive(!isActive);
+  };
   return (
     <>
       <div className='top-bar'>
@@ -20,11 +25,13 @@ const Navbar = () => {
       <nav className="navbar p-4  navbar-expand-lg" data-bs-theme="dark" >
         <div className="container">
           <Link className="navbar-brand" to="/"> <img src={navImage} alt="luts jesco" /></Link>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon" />
+          <button className={`setting-btn ${isActive ? 'setting-btn navbar-toggler active' : 'setting-btn navbar-toggler'}`} onClick={toggleClick} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="bar bar1"></span>
+            <span class="bar bar2"></span>
+            <span class="bar bar1"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav ms-auto  mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/">Home  </Link>
               </li>

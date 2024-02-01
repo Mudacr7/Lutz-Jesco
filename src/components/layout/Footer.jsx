@@ -6,10 +6,10 @@ const Footer = () => {
       <footer>
         <div className="container">
           <div className="row">
-            <div className="col-md-4"><div className="d-flex flex-column gap-5 px-5 leftside">
+            <div className="col-md-4"><div className="d-flex flex-column gap-5 leftside px-5">
               <img src={logo} alt="companylogo" />
               <p className='fw-semibold'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'</p>
-              <div className="d-flex justify-content-between">
+              <div className="d-flex w-100 justify-content-between">
                 <svg xmlns="http://www.w3.org/2000/svg" width="11" height="19" viewBox="0 0 11 19" fill="none">
                   <path d="M7 10.925H9.5L10.5 7.125H7V5.225C7 4.2465 7 3.325 9 3.325H10.5V0.133C10.174 0.0921501 8.943 0 7.643 0C4.928 0 3 1.57415 3 4.465V7.125H0V10.925H3V19H7V10.925Z" fill="#840611" />
                 </svg><svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
@@ -53,9 +53,12 @@ const Footer = () => {
       </footer>
       <div className='bottom-bar'>
         <p>
-          Copyright © 2024&ensp;<a>Lutz Jesco&ensp;</a>All Rights Reserved<a>&ensp;Dot CLick</a>
+          Copyright © 2024<a>&nbsp; Lutz Jesco. </a>&nbsp; All Rights Reserved&nbsp; <a> Dot CLick</a>
         </p>
-        <p>Terms of use&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Privcacy Policy</p>
+        <p className='d-flex terms  justify-content-between'>
+          <p>Terms of use</p>
+          <p>Privcacy Policy</p>
+        </p>
       </div>
     </>
   )

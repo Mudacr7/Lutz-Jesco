@@ -9,12 +9,10 @@
   }
   .section-getstarted p{
     font-size: 10px !important;
-   
   }
-    
+  .section-getstarted .content{
+    gap: 30px;
+  }
 }
-
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-
-
 }

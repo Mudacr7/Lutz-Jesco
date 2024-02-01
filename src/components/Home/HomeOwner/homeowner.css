@@ -29,6 +29,17 @@
 .section-homeowner .content p {
     font-size: 15px;
 }
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .section-homeowner{
+        height: 45vh;
+    }
+    .section-homeowner .content h3 {
+        font-size: 20px;
+    }
+    .section-homeowner .content p {
+        font-size: 12px;
+    }
+}
 @media only screen and (max-width: 600px) {
     .section-homeowner{
         height: 60vh;
@@ -40,4 +51,3 @@
         font-size: 12px;
     }
 }
-@media only screen and (min-width: 601px) and (max-width: 1024px) {}

@@ -35,12 +35,40 @@
 .card p {
     font-size: 11px;
 }
+@media only screen and (min-width: 601px) and (max-width: 1100px) {
+    .section-choose-us .card {
+        padding: 15px;
+        height: 175px;
+  }
+  .heading span {
+    font-size: 16px;
+}
+.card .heading p {
+    font-size: 30px;
+}
+.card p {
+    font-size: 10px;
+}
+}
 @media only screen and (max-width: 600px) {
     .section-choose-us {
         padding: 50px 40px;
     }
+    .section-choose-us .card {
+        padding: 15px 10px;
+        height: fit-content;
+  }
     .section-choose-us .main-heading {
         font-size: 13px !important;
+    } .heading span {
+        font-size: 15px;
     }
+    .card .heading p {
+        font-size: 25px !important;
+    }
+    .card p{
+        font-size: 10px !important; 
+        }
 }
-@media only screen and (min-width: 601px) and (max-width: 1024px) {}
+@media only screen and (max-width: 420px) {
+}

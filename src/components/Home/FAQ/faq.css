@@ -1,12 +1,10 @@
 .section-faq {
     padding: 100px 20px;
 }
-
 .section-faq h1 {
     color: var(--maroon);
     text-align: center;
 }
-
 .questions {
     margin-top: 50px;
     display: flex;
@@ -18,30 +16,29 @@
     box-shadow: 10px 10px 20px #a8a8a8,
         -10px -10px 20px #ffffff;
 }
-
 .q-ask {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .first-svg {
     transform: rotate(-90deg);
     transition: all 0.6s;
-
 }
-
 .second-svg {
     display: inline block !important;
     transform: rotate(90deg);
     transition: all 0.6s;
 }
-
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .answer{
+        font-size: 12px !important; 
+        }
+}
 @media only screen and (max-width: 600px) {
     .section-faq h1 {
         font-size: 22px;
     }
-
     .q-ask p {
         font-size: 12px;
     }
@@ -52,5 +49,5 @@
     width: 10px; 
     }
 }
-
-@media only screen and (min-width: 601px) and (max-width: 1024px) {}
+@media only screen and (max-width: 420px) {
+}
