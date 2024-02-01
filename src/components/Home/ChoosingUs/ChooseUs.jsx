@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './chooseus.css'
 const ChooseUs = () => {
     return (
@@ -6,7 +7,7 @@ const ChooseUs = () => {
             <section className='section-choose-us' >
                 <div className="container text-center">
                     <h2>Why Choose Us</h2>
-                    <p className='main-heading'>Experience Excellence: Uncover the <a href="/" className='text-dark fw-bolder'>Lutz Jesco</a> Advantage</p>
+                    <p className='main-heading'>Experience Excellence: Uncover the <Link href="/" className='text-dark fw-bolder'>Lutz Jesco</Link> Advantage</p>
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-sm-12 p-3">
                             <div className="card">

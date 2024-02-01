@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './getstarted.css'
 const GetStarted = () => {
     return (
@@ -11,7 +12,7 @@ const GetStarted = () => {
                             <p className='fs-6 mt-2'>Ready to take the first step towards your custom pumping solution? Click below to get started.</p>
                         </span></div>
                         <div className="col-md-4 col-sm-12 d-flex justify-content-sm-start justify-content-lg-center">                      
-                          <a href="/" className='web-btn'>Get Started</a>
+                          <Link href="/" className='web-btn'>Get Started</Link>
                         </div>
                     </div>
                 </div>

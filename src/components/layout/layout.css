@@ -86,7 +86,7 @@ footer .centerside li {
     color: var(--maroon);
     font-weight: 800;
 }
-footer .centerside a {
+footer .centerside .links {
     color: #000;
     font-weight: 500;
     margin-top: 15px;
@@ -98,11 +98,11 @@ footer .rightside li {
     color: var(--maroon);
     font-weight: 800;
 }
-footer .rightside a {
+footer .rightside .links {
     display: flex;
     gap: 10px;
     align-items: center;
-    color: #000;
+    color: #000 !important;
     font-size: 12px;
     font-weight: 500;
     margin-top: 20px;
@@ -113,7 +113,8 @@ footer .rightside a {
     justify-content: space-between;
     padding: 15px 80px;
 }
-.bottom-bar p a {
+.bottom-bar p .links{
+    color: #fff;
     text-decoration: none;
     font-weight: 700;
 }
